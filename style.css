@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+box-sizing: border-box;
+
+}
+
+body, .tile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: #1b1b1b;
+    height: 100vh;
+   
+}
+
+#game-board{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    
+    
+    
+}
+.tile{
+    border:1px solid white;
+    height: 100px;
+    width: 100px;
+    color: aqua;
+    font-size: 25px;
+    position: absolute;
+    transition: top 0.3s linear,left 0.3s linear;
+}
+
+.emptyItem{
+    color: transparent;
+}
+.counter{
+    color: antiquewhite;
+   margin-right: 10vw;
+}
